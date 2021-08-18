@@ -209,7 +209,9 @@ color: #FFFFFF;}
   .nav-link:hover,
 .nav-link:focus,
 .mail-link:hover,
-.mail-link:focus {
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: var(--accent-color);
   outline: none;
 }
@@ -478,7 +480,7 @@ color: #FFFFFF;}
     background-color: var(--accent-color);
     border: none;
     fill: var(--dark-background-text-color);
-    background-image: url('../images/icon-check.svg');
+    background-image: url('../images/icons/icon-icon-check');
   }
   
   .modal-form-checkbox:focus + .modal-form-checkbox-agreement::before,
@@ -900,10 +902,11 @@ color: #FFFFFF;}
     transition: color 250ms var(--timing-cubic);
   }
   
-  .footer-form {
+  .footer-form { width: 570px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    margin-left: auto;
   }
   
   .footer-form-offer {
